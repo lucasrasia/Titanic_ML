@@ -43,11 +43,31 @@ The dataset used is the `titanic.csv` from the Data Science Dojo's GitHub reposi
 
 To run this project, you'll need to have Python installed. It's recommended to use a virtual environment.
 
-```bash
-# Clone the repository
-git clone <your-repository-url>
-cd <your-repository-name>
+## Usage
 
-# Install the required libraries
-pip install pandas scikit-learn
+The main script for this project is provided as a Jupyter Notebook/Colab Notebook. You can open and run it directly.
 
+Open the notebook in Google Colab or your local Jupyter environment.
+Run all cells to execute the data loading, preprocessing, model training, and evaluation steps.
+The notebook will output the accuracy of the trained model.
+
+### Example of how to load and process data (from the notebook)
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+
+df = pd.read_csv("https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv")
+
+### ... (rest of the preprocessing and model training code)
+``` bash
+print(acerto) # This will print the accuracy score
+```
+## Model Evaluation
+The model's performance is evaluated using the accuracy score. The current model achieves an accuracy of approximately 82.12% on the test set.
+
+## Technologies Used
+Python 3
+Pandas (for data manipulation)
+Scikit-learn (for machine learning models and utilities)
+Jupyter/Google Colab (for development environment)
