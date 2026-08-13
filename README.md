@@ -64,7 +64,7 @@ df = pd.read_csv("https://raw.githubusercontent.com/datasciencedojo/datasets/mas
 print(acerto) # This will print the accuracy score
 ```
 ## Model Evaluation
-The model's performance is evaluated using the accuracy score. The current model achieves an accuracy of approximately 82.12% on the test set.
+The model's performance is evaluated using the accuracy score. The current model achieves an accuracy of approximately 82% on the test set.
 
 ## Technologies Used
 Python 3
